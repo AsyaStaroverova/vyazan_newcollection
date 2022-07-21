@@ -1,0 +1,175 @@
+.page {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'Manrope', sans-serif;
+}
+
+h1 {
+    font-size: 135px;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: white;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 38px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 0%;
+}
+
+a:link {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #000000; 
+    
+}
+a:visited {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #000000;
+}
+a:hover {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #4e5f7e; 
+    border-bottom: .07em solid;
+}
+a:active {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #497DDD; 
+    border-bottom: 1px dashed;
+}
+
+.header {
+    justify-content: center;
+}
+
+.header__container {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.header__container overlay {
+    display: flex;
+    position: absolute;
+    margin: 0 25px 0 25px;
+    flex-wrap: wrap;
+    align-content: space-between
+}
+
+.header__logo {
+    width: 91px;
+    height: 29px;
+    margin: 9px 0 0 0;
+}
+
+.header__menu-list {
+    display: flex;
+    align-items: flex-end;
+    list-style: none;
+    height: 29px;
+    gap: 22px;
+    margin: 7px 0 0 477px;
+    padding: 0;
+}
+
+.header__name {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__menu {
+ display: flex;
+ justify-content: space-between;
+ font-size: 14px;
+ line-height: 19.6px;
+}
+
+.header__prename {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2;
+    margin: 202px 248px 0;
+    color: white;
+}
+
+.header__common_name {
+    display: flex;
+    margin: -41px 241px;
+}
+
+.main {
+    margin: 0 25px 0 25px;
+}
+
+.main__top {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0 auto;
+}
+
+.main__head {
+font-style: regular;
+margin: 0 auto;
+margin-top: 13px;
+}
+
+.main__lead {
+    text-align: center;
+    font-size: 21px;
+    line-height: 29px;
+    width: 721px;
+    margin: 0 auto;
+    margin-top: 43px;
+}
+
+.main__screen1_head {
+    display: flex;
+    margin-top: 62px;
+    flex-wrap: wrap;
+}
+
+.main__headers {
+    display: flex;
+}
+
+.main__description {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-left: 10px;
+    width: 390px;
+}
+
+.main__link {
+    display: flex;
+    height: 22px;
+    margin-top: 55px;
+}
+
+.photo_production {
+    margin: 14px 0 10px 0;
+}
+
+.photo_production{
+    display: flex;
+    margin: 10px auto;
+    flex-wrap: wrap;
+}

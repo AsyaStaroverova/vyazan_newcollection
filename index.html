@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .page {
+            margin: 0 auto;
+            width: 1000px;
+            font-family: 'Manrope', sans-serif;
+            
+        }
+
+        li {
+            list-style: none;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 140%;
+            margin: 0%;
+        }
+
+        h2 {
+            font-size: 21px;
+            font-weight: 400;
+            line-height: 140%;
+            margin: 0%;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 135%;
+            margin: 0%;
+        }
+
+        ul {
+            padding-inline-start: 0;
+            font-size: 14px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:link {
+            color: #000000; 
+            
+        }
+        a:visited {
+            color: #000000;
+        }
+        a:hover {
+            color: #4e5f7e; 
+        }
+        a:active {
+            color: #497DDD; 
+            border-bottom: 1px dashed;
+        }
+
+        .header {
+            display: flex;
+            position: relative;
+        }
+
+        .header__overlay {
+            display: flex;
+            position: absolute;
+            margin: 0 25px 0 25px;
+            flex-wrap: wrap;
+        }
+
+        .header__menu {
+            display: flex;
+            margin: 9px 0 0 0;
+            width: 950px;
+            justify-content: space-between;
+        }
+
+        .header__menu-list {
+            display: flex;
+            align-items: flex-end;
+            height:20px;
+            gap: 22px;
+            margin: 7px 0 0 477px;
+            padding: 0px;
+            font-size: 14px;
+        }
+
+        .header__description {
+            position: absolute;
+            margin: 245px 249px 0;
+            color: white;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header__description-name {
+            margin: 0 0 10px;
+        }
+
+        .main__top {
+            margin: 13px auto;
+            width: 720px;
+            text-align: center;
+        }
+
+        .main__lead {
+            margin: 62px auto;
+            width: 720px;
+            text-align: center;
+        }
+
+        .main__women {
+            display: flex;
+            margin: 60px 25px 0 25px;
+        }
+
+        .main__description {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 20px;
+            margin-top: -10px;
+            align-content: flex-start;
+        }
+
+        .main__link {
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 140%;
+            border-bottom: 1px solid;
+        }
+
+        .main__products-women {
+            display: grid;
+            grid-template-columns: 470px 470px;
+            grid-auto-rows: 470px 470px;
+            grid-gap: 10px;
+            margin: 10px 25px 0 25px;
+        }
+        .main__products-women img{
+            height: 100%;
+            width: 100%;
+        }
+        .main__products-women > a:nth-child(1) {
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+
+        .footer {
+            display: flex;
+            height: 186px;
+        }
+
+        .footer__logo {
+            display: flex;
+            margin: 22px 0 0 25px;
+            flex-direction: column;
+            align-items: flex-start;
+            height: 74px;
+            justify-content: space-between;
+        }
+
+        .footer__icons-list {
+            display: flex;
+            gap: 15px;
+            margin-top: 17px;
+        }
+
+        .footer__contacts {
+            margin: 22px 0 0 79px;
+        }
+
+        .footer li {
+            margin-bottom: 6px;
+        }
+
+        .footer__menu {
+            display: flex;
+            margin: 22px 0 0 130px;
+            gap: 130px;
+            flex-direction: row;
+        }
+
+
+
+    </style>
+</head>
+<body class="page">
+    <header class="header">
+        <img src="./Head.jpg">
+        <div class="header__overlay">
+            <nav class="header__menu">
+                <img src="./Logo_vyazan.svg">
+                <ul class="header__menu-list">
+                    <li><a href="#">Коллекции</a></li> 
+                    <li><a href="#">Одежда</a></li> 
+                    <li><a href="#">Аксессуары</a></li> 
+                    <li><a href="#">Наши магазины</a></li> 
+                </ul>
+            </nav>
+            <div class="header__description">
+                <h2 class="header__description-name" >Осень — зима 2023</h2> 
+                <img src="./EARTH.svg"> 
+            </div>
+        </div>
+    </header>
+    <main>
+            <h2 class="main__lead">
+            Новая коллекция посвящена нашему общему дому — планете Земля. Открывайте её заново каждый раз, когда отправляетесь в путешествие, и делайте это в наших тёплых свитерах.
+            </h2>
+        <div class="main__women">
+            <img src="./women.jpg">
+            <div class="main__description">
+                <h1>Женская коллекция<h1>
+                <p>Обновите сезонный гардероб нашей коллекцией вязаных джемперов и кардиганов. Мериносовая шерсть, альпака, кашемир — вечная классика, в которой вам будет комфортно даже в холодные осенние ночи на природе, а стильные фасоны делают одежду идеальной для города.  </p> 
+            </div>
+        </div>
+        <div class="main__products-women">
+            <a href="#"><img src="./women1.jpg" alt=""></a>
+            <a href="#"><img src="./Women3.jpg" alt=""></a>
+            <a href="#"><img src="./Women2.jpg" alt=""></a>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__logo">
+          <img src="./lofo_footer.svg" alt="">
+          <ul class="footer__icons-list">
+            <li><a href="#"><img src="./VK.svg" alt=""></a></li> 
+            <li><a href="#"><img src="./OK.svg" alt=""></a></li> 
+            <li><a href="#"><img src="./Facebook.svg" alt=""></a></li> 
+            <li><a href="#"><img src="./Telegram.svg" alt=""></a></li> 
+          </ul>
+        </div>
+        <ul class="footer__contacts">
+            <li>+7 4912 55-53-53</li>
+            <li>info@vyazan.ru</li>
+        </ul>
+        <ul class="footer__menu">
+            <ul>
+                <li><a href="#">Новая коллекция</a></li> 
+                <li><a href="#">Верхняя одежда</a></li> 
+                <li><a href="#">Постельное белье</a></li> 
+                <li><a href="#">Детская одежда</a></li> 
+                <li><a href="#">Распродажа</a></li> 
+            </ul>
+            <ul>
+                <li><a href="#">Наши контакты</a></li> 
+                <li><a href="#">Доставка и оплата</a></li> 
+                <li><a href="#">Оптовым клиентам</a></li> 
+                <li><a href="#">Партнёрам</a></li> 
+                <li><a href="#">Блог</a></li> 
+            </ul>
+
+        </ul>
+
+    </footer>
+    
+</body>
+</html>
